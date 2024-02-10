@@ -70,11 +70,5 @@ p {
 }
 
 user-info {
-    position: fixed;
-    top: 10px; /* Adjust the distance from the top as needed */
-    right: 10px; /* Adjust the distance from the right as needed */
-    background-color: #ffffff; /* Optional: Set the background color */
-    padding: 10px; /* Optional: Add padding for better visibility */
-    border: none; /* Remove the border */
-    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
-  }
+    color: black
+}
