@@ -8,9 +8,20 @@ body {
 
 nav {
     margin: 40px auto 0 auto;
-    width: 250px;
+    max-width: 500px;
     border-radius: 50px;
     background: #212431;
+}
+
+nav a {
+    transition: color 1s, background-color 1s;
+    border-radius: 100px;
+}
+
+nav a:hover {
+    color: #000000;
+    background: linear-gradient(45deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+
 }
 
 nav ul {
@@ -34,6 +45,7 @@ nav ul li a {
 }
 
 h1 {
+    margin: 40px 0px;
     font-size: 8em;
     letter-spacing: -2px;
 }
@@ -46,5 +58,13 @@ h1 strong {
 }
 
 img.about {
+    position: fixed;
+    bottom: 0;
     opacity: 0.5;
+}
+
+p {
+    padding: 1%;
+    border: 1px solid #0707078a;
+    margin: 20px 200px;
 }
