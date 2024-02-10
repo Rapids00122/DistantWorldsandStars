@@ -65,10 +65,16 @@ img.about {
 
 p {
     padding: 1%;
+    min-width: 50px;
     border: 1px solid #0707078a;
     margin: 20px 200px;
 }
 
-user-info {
-    color: black
-}
+.user-info {
+    position: fixed;
+    bottom: 10px; 
+    right: 10px; 
+    padding: 10px; 
+    border: none;
+    border-radius: 8px; 
+  }
